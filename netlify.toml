@@ -1,2 +1,3 @@
 [build]
+  command = "python3 scripts/check_site.py"
   publish = "public"

@@ -1,7 +1,7 @@
 :root {
   --paper:#f2f1eb;
   --ink:#191919;
-  --muted:#686860;
+  --muted:#484840;
   --line:#c9c9c0;
   --blue:#163ee8;
 }
@@ -17,7 +17,6 @@ body {
   background:var(--paper);
   color:var(--ink);
   font-family:'Helvetica Neue',Helvetica,sans-serif;
-  -webkit-font-smoothing:antialiased;
 }
 a {
   color:inherit;
@@ -537,3 +536,13 @@ footer {
 .experiment-collection h2 { font-size:28px; letter-spacing:-.04em; font-weight:500; margin:0; }
 .experiment-collection p { color:var(--muted); font-size:15px; margin:28px 0 0; }
 @media(max-width:700px) { .experiment-cover { padding:24px; } .experiment-mark { font-size:clamp(52px,15vw,90px); } }
+
+/* Keep supporting text readable without enlarging the overall layout. */
+.mono { font-size:12px; line-height:1.5; }
+.name span { font-size:11px; }
+.entry-label p, .small-section p, .case figcaption { font-size:14px; }
+.project-type { font-size:12px; }
+@media(max-width:700px) {
+  .intro-top, .section-top, .footer-inner { font-size:12px; }
+  .section-top { flex-wrap:wrap; gap:8px 20px; }
+}

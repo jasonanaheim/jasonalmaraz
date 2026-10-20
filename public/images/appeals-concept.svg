@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="740" viewBox="0 0 960 740">
+<rect width="960" height="740" fill="#dedfd8"/>
+<path d="M60 76H900M60 664H900" stroke="#aaada5"/>
+<g fill="#242820" font-family="Helvetica, sans-serif"><text x="56" y="62" font-size="14" letter-spacing="2">FIG. 01 / AN APPEAL, MADE CLEAR</text><text x="56" y="696" font-size="13" letter-spacing="1">CONCEPT ILLUSTRATION — NOT A PRODUCT SCREENSHOT</text></g>
+<g transform="translate(130 158) rotate(-6 260 200)"><rect width="590" height="380" fill="#b9bcb0"/><rect x="-12" y="-12" width="590" height="380" fill="#f7f6ef" stroke="#242820"/><text x="25" y="31" font-family="Helvetica,sans-serif" font-size="12" letter-spacing="2">01 / UNDERSTAND THE PROCESS</text><path d="M25 52H540" stroke="#242820"/><text x="25" y="122" font-family="Helvetica,sans-serif" font-size="48" letter-spacing="-2">A decision deserves</text><text x="25" y="174" font-family="Helvetica,sans-serif" font-size="48" letter-spacing="-2">a clear next step.</text><path d="M25 217H405M25 237H350M25 257H380" stroke="#b2b2a8" stroke-width="8"/></g>
+<g transform="translate(463 393) rotate(5)"><rect x="8" y="8" width="350" height="190" fill="#b9bcb0"/><rect width="350" height="190" fill="#163ee8"/><text x="25" y="40" fill="white" font-family="Helvetica,sans-serif" font-size="12" letter-spacing="2">02 / FIND YOUR WAY FORWARD</text><text x="25" y="104" fill="white" font-family="Helvetica,sans-serif" font-size="38" letter-spacing="-1">“Be heard.”</text><path d="M25 145H312M295 128L312 145L295 162" fill="none" stroke="white" stroke-width="2"/></g>
+<path d="M71 590v40h40M889 150v-40h-40" fill="none" stroke="#242820" stroke-width="2"/>
+</svg>

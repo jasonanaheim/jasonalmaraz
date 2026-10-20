@@ -511,3 +511,13 @@ footer {
 .product-tour figcaption { line-height:1.6; }
 .product-tour figcaption strong { display:block; color:var(--ink); font-size:15px; font-weight:500; margin-bottom:4px; }
 @media(max-width:700px) { .tour-clips { grid-template-columns:1fr; } }
+
+.case-section p + p { margin-top:16px; }
+.inline-source { text-decoration:underline; text-underline-offset:4px; }
+.comparison-grid { display:grid; grid-template-columns:280px 1fr; gap:28px; align-items:center; }
+.case .comparison-grid figure { margin:0 0 24px; min-width:0; }
+.case .legacy-image img { width:248px; max-width:100%; height:auto; margin:auto; }
+.legacy-image { padding:16px; background:#e5e4dc; }
+.map-comparison figcaption { line-height:1.6; }
+.map-comparison figcaption strong { display:block; font-size:14px; color:var(--ink); margin-bottom:4px; }
+@media(max-width:700px) { .comparison-grid { grid-template-columns:1fr; } }

@@ -1,13 +1,13 @@
 /* An alternate art direction, scoped to the design preview page. */
 :root {
-  --paper:#ffffff;
+  --paper:#F4F2F2;
   --ink:#1717e8;
   --muted:#1717e8;
   --blue:#1717e8;
   --line:#c4c4df;
 }
 body { font-family:Georgia,'Times New Roman',serif; }
-.design-note { background:#ffffff; padding:12px 4%; display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+.design-note { background:#F4F2F2; padding:12px 4%; display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; }
 .design-note a { text-decoration:underline; text-underline-offset:4px; }
 .wrap { width:min(1360px,calc(100% - 96px)); }
 header { border-bottom:0; }
@@ -33,10 +33,10 @@ nav { font-family:'Courier New',monospace; font-size:13px; text-transform:upperc
 .selected-work>h2 { font-size:48px; font-weight:400; margin:18px 0 40px; }
 .project-copy h3 { font-family:Georgia,'Times New Roman',serif; font-weight:400; font-size:clamp(36px,4vw,54px); line-height:1.05; letter-spacing:-.045em; }
 .project-copy p { font-size:18px; line-height:1.7; max-width:470px; }
-.project-image { background:#ffffff; }
+.project-image { background:#F4F2F2; }
 .walkthrough-link { font-family:'Courier New',monospace; font-size:12px; text-transform:uppercase; letter-spacing:.03em; }
 .project-feature + .project-feature { margin-top:48px; padding-top:48px; }
-.experiment-cover { background:#ffffff; color:var(--ink); }
+.experiment-cover { background:#F4F2F2; color:var(--ink); }
 .experiment-mark { font-weight:400; }
 .bottom-grid { border-color:var(--line); padding:40px 0; }
 .bottom-grid h2 { font-weight:400; font-size:34px; }
@@ -44,7 +44,7 @@ nav { font-family:'Courier New',monospace; font-size:13px; text-transform:upperc
 .small-section { padding:28px 0; }
 .small-section h2 { font-family:'Courier New',monospace; font-size:14px; }
 .small-section p { font-size:16px; }
-footer { background:#ffffff; border:0; padding:48px 0; }
+footer { background:#F4F2F2; border:0; padding:48px 0; }
 @media(max-width:700px) {
   .wrap { width:calc(100% - 40px); }
   .design-note { padding:12px 20px; font-size:11px; }

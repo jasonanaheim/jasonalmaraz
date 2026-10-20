@@ -499,3 +499,15 @@ footer {
 
 .project-links { display:flex; flex-wrap:wrap; gap:8px 28px; align-items:center; }
 .project-links .walkthrough-link { gap:18px; }
+
+.product-tour { margin:36px 0 48px; }
+.tour-heading { margin:36px 0 24px; }
+.tour-heading h2 { font-size:clamp(26px,3vw,36px); font-weight:500; letter-spacing:-.045em; margin:12px 0; }
+.tour-heading p { font-size:15px; line-height:1.6; color:var(--muted); max-width:600px; }
+.tour-clips { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+.case .tour-clips figure { margin:0 0 12px; min-width:0; }
+.tour-clips figure:first-child { grid-column:1/-1; }
+.tour-clips video { display:block; width:100%; height:auto; background:#191919; }
+.product-tour figcaption { line-height:1.6; }
+.product-tour figcaption strong { display:block; color:var(--ink); font-size:15px; font-weight:500; margin-bottom:4px; }
+@media(max-width:700px) { .tour-clips { grid-template-columns:1fr; } }

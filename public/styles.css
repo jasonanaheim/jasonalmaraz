@@ -563,3 +563,5 @@ footer {
   letter-spacing:normal;
 }
 .project-image, .legacy-image { background:#f4f2f2; }
+
+.section-label, .walkthrough-link span, nav a span[aria-hidden="true"] { color:var(--blue); }

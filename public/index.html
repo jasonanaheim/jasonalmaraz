@@ -5,40 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Jason Almaraz's portfolio. Work, about, resume, and contact.">
   <title>Jason Almaraz</title>
-  <style>
-    * { box-sizing: border-box; }
-    html { color-scheme: light; scroll-padding-top: 24px; }
-    body { margin: 0; background: #fff; color: #222; font-family: system-ui, sans-serif; line-height: 1.6; }
-    a { color: inherit; text-decoration: none; }
-    a:hover { text-decoration: underline; text-underline-offset: 5px; }
-    a:focus-visible { outline: 2px solid currentColor; outline-offset: 6px; }
-    .wrap { width: min(100% - 48px, 1080px); margin-inline: auto; }
-    header { border-bottom: 1px solid #e8e8e8; }
-    .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 26px; }
-    .name { font-weight: 600; white-space: nowrap; }
-    nav { display: flex; flex-wrap: wrap; gap: 12px 28px; font-size: 14px; }
-    .intro { padding-block: 96px; }
-    h1 { margin: 0 0 12px; font-size: clamp(36px, 7vw, 56px); font-weight: 500; letter-spacing: -.04em; line-height: 1.15; }
-    p { margin: 0; color: #666; }
-    section { padding-block: 40px; border-top: 1px solid #e8e8e8; }
-    h2 { margin: 0 0 12px; font-size: 20px; font-weight: 500; }
-    footer { padding-block: 40px; color: #777; font-size: 13px; }
-    .skip { position: absolute; top: -100px; left: 24px; padding: 8px 16px; background: white; }
-    .skip:focus { top: 8px; }
-    @media (max-width: 600px) {
-      .header-inner { align-items: flex-start; flex-direction: column; gap: 16px; }
-      nav { gap: 12px 24px; }
-      .intro { padding-block: 64px; }
-    }
-  </style>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/timeline.js" defer></script>
 </head>
 <body id="top">
   <a class="skip" href="#main">Skip to content</a>
   <header>
     <div class="wrap header-inner">
-      <a class="name" href="#top">Jason Almaraz</a>
+      <a class="name" href="#top">Jason Almaraz<span>PRODUCT MANAGEMENT</span></a>
       <nav aria-label="Main navigation">
         <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
         <a href="#about">About</a>
         <a href="#resume">Resume <span aria-hidden="true">↗</span></a>
         <a href="#contact">Contact</a>
@@ -47,26 +24,48 @@
   </header>
   <main class="wrap" id="main">
     <div class="intro">
-      <h1>Jason Almaraz</h1>
-      <p>Portfolio in progress.</p>
+      <div class="intro-top mono"><span>Portfolio / Jason Almaraz</span><span>Ideas → decisions → products</span></div>
+      <h1>“WORK IN<br>PROGRESS”</h1>
+      <div class="intro-bottom"><p>Product management across developer tools, AI, and digital experiences.</p><a class="index-link mono" href="#experience">Explore the experience <span aria-hidden="true">↓</span></a></div>
+      <div class="stripe" aria-hidden="true"></div>
     </div>
-    <section id="work" aria-labelledby="work-title">
-      <h2 id="work-title">Work</h2>
-      <p>Projects coming soon.</p>
+    <section class="experience" id="experience" aria-labelledby="experience-title">
+      <div class="section-top mono"><span>[01] / Career archive</span><span>People. Problems. Possibilities.</span></div>
+      <div class="section-heading reveal"><h2 id="experience-title">Experience<br>“Timeline”</h2><p>A look at the teams, products, and experiences that have shaped how I work.</p></div>
+      <div class="timeline">
+        <article class="entry reveal">
+          <span class="node" aria-hidden="true"></span>
+          <div class="entry-label"><span class="mono">Jun 2022 — Aug 2026</span><h3>Microsoft</h3><p>OneDrive &amp; SharePoint</p></div>
+          <div class="entry-body"><div class="role"><h4>Product Manager</h4><span class="arrow" aria-hidden="true">↗</span></div><p>Working on developer experiences, with a focus on onboarding, engineering workflows, and AI tools.</p>
+            <button hidden class="milestone-toggle mono" aria-expanded="true" aria-controls="microsoft-experience"><span><span class="toggle-label">View selected experience</span> (03)</span><span class="plus" aria-hidden="true">+</span></button>
+            <div class="milestones open" id="microsoft-experience"><div class="milestones-inner">
+              <div class="milestone" style="--i:0"><span class="mono">01</span><div><h5>Developer onboarding</h5><p>Understanding the friction new engineers encounter and partnering across teams to improve the onboarding experience.</p></div></div>
+              <div class="milestone" style="--i:1"><span class="mono">02</span><div><h5>Engineering workflows</h5><p>Bringing developer feedback and product thinking to the systems engineers use to build and ship software.</p></div></div>
+              <div class="milestone" style="--i:2"><span class="mono">03</span><div><h5>AI developer tools</h5><p>Working with engineering and data science on AI experiences, product quality, and adoption.</p></div></div>
+            </div></div>
+          </div>
+        </article>
+        <article class="entry reveal">
+          <span class="node" aria-hidden="true"></span>
+          <div class="entry-label"><span class="mono">Sep 2019 — Jun 2022</span><h3>Codazen</h3><p>Staffed at Meta</p></div>
+          <div class="entry-body"><div class="role"><h4>Product Manager</h4><span class="arrow" aria-hidden="true">↗</span></div><p>Partnering with clients, designers, and engineers to turn complex requirements into usable digital experiences.</p>
+            <button hidden class="milestone-toggle mono" aria-expanded="true" aria-controls="codazen-experience"><span><span class="toggle-label">View selected experience</span> (03)</span><span class="plus" aria-hidden="true">+</span></button>
+            <div class="milestones open" id="codazen-experience"><div class="milestones-inner">
+              <div class="milestone" style="--i:0"><span class="mono">01</span><div><h5>Oversight Board</h5><p>Contributed to the public-facing appeals experience through requirements, accessibility reviews, and launch coordination.</p></div></div>
+              <div class="milestone" style="--i:1"><span class="mono">02</span><div><h5>Messenger Kids</h5><p>Helped deliver the public-facing website, aligning design scope and engineering delivery with the client.</p></div></div>
+              <div class="milestone" style="--i:2"><span class="mono">03</span><div><h5>webDiplomacy</h5><p>Helped define requirements and prioritize a playable desktop experience for a redesigned strategy-game interface.</p></div></div>
+            </div></div>
+          </div>
+        </article>
+      </div>
     </section>
-    <section id="about" aria-labelledby="about-title">
-      <h2 id="about-title">About</h2>
-      <p>More about me coming soon.</p>
-    </section>
-    <section id="resume" aria-labelledby="resume-title">
-      <h2 id="resume-title">Resume</h2>
-      <p>Resume coming soon.</p>
-    </section>
-    <section id="contact" aria-labelledby="contact-title">
-      <h2 id="contact-title">Contact</h2>
-      <p>Contact details coming soon.</p>
-    </section>
+    <div class="bottom-grid">
+      <section id="work" aria-labelledby="work-title"><span class="mono">[02] / Selected work</span><h2 id="work-title">The work behind the titles.</h2><p>Selected project stories are coming soon.</p></section>
+      <section id="about" aria-labelledby="about-title"><span class="mono">[03] / About</span><h2 id="about-title">Jason Almaraz</h2><p>I work across product, design, and engineering to make complex experiences easier to use.</p></section>
+    </div>
+    <section class="small-section" id="resume" aria-labelledby="resume-title"><h2 id="resume-title">Resume ↗</h2><p>Resume coming soon.</p></section>
+    <section class="small-section" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">“LET’S CONNECT”</h2><p>Contact details coming soon.</p></section>
   </main>
-  <footer class="wrap">Jason Almaraz</footer>
+  <footer><div class="wrap footer-inner mono"><span>Jason Almaraz / Portfolio</span><a href="#top">Back to top ↑</a></div></footer>
 </body>
 </html>

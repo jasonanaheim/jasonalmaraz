@@ -1,9 +1,9 @@
 :root {
-  --paper:#f2f1eb;
-  --ink:#191919;
+  --paper:#ffffff;
+  --ink:#000000;
   --muted:#484840;
   --line:#c9c9c0;
-  --blue:#163ee8;
+  --blue:#0019e9;
 }
 * {
   box-sizing:border-box;
@@ -548,3 +548,18 @@ footer {
 }
 
 .section-number { color:var(--blue); }
+
+/* Product-page reference: IBM Plex Mono copy, white canvas, restrained blue. */
+@font-face { font-family:'IBM Plex Mono'; font-style:normal; font-weight:400; font-display:swap; src:url('/fonts/ibm-plex-mono-regular.ttf') format('truetype'); }
+@font-face { font-family:'IBM Plex Mono'; font-style:normal; font-weight:500; font-display:swap; src:url('/fonts/ibm-plex-mono-medium.ttf') format('truetype'); }
+.mono, .name span, nav, .walkthrough-link { font-family:'IBM Plex Mono',monospace; }
+.intro p, .section-heading p, .entry-label p, .entry-body>p, .milestone p,
+.project-copy p, .bottom-grid p, .small-section p, .case-section p,
+.tour-heading p, .case figcaption, .experiments-intro, .experiment-collection p {
+  font-family:'IBM Plex Mono',monospace;
+  font-size:14px;
+  line-height:1.5;
+  color:var(--ink);
+  letter-spacing:normal;
+}
+.project-image, .legacy-image { background:#f4f2f2; }

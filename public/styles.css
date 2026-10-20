@@ -546,3 +546,5 @@ footer {
   .intro-top, .section-top, .footer-inner { font-size:12px; }
   .section-top { flex-wrap:wrap; gap:8px 20px; }
 }
+
+.section-number { color:var(--blue); }

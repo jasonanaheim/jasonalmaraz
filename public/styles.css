@@ -521,3 +521,19 @@ footer {
 .map-comparison figcaption { line-height:1.6; }
 .map-comparison figcaption strong { display:block; font-size:14px; color:var(--ink); margin-bottom:4px; }
 @media(max-width:700px) { .comparison-grid { grid-template-columns:1fr; } }
+
+/* Personal experiment collection */
+.experiment-cover { display:flex; flex-direction:column; justify-content:space-between; gap:24px; padding:28px; aspect-ratio:16/10; background:var(--blue); color:var(--paper); overflow:hidden; }
+.experiment-mark { display:block; position:relative; font-size:clamp(52px,7vw,90px); line-height:.88; letter-spacing:-.075em; font-weight:600; }
+.experiment-mark>span { position:absolute; right:0; bottom:0; font-size:.7em; transition:transform .3s; }
+.experiment-cover:hover .experiment-mark>span { transform:translate(5px,-5px); }
+.experiments-intro { max-width:650px; color:var(--muted); font-size:16px; line-height:1.8; }
+.experiments-banner { margin:40px 0; padding:28px; background:var(--blue); color:var(--paper); }
+.experiments-banner>span { display:block; }
+.experiments-banner>span:not(.mono) { font-size:clamp(28px,5vw,56px); letter-spacing:-.055em; margin-top:36px; line-height:1; }
+.experiments-banner .stripe { background:repeating-linear-gradient(125deg,var(--paper) 0 9px,transparent 9px 18px); margin-top:28px; }
+.experiment-collection { border-top:1px solid var(--ink); padding:24px 0 32px; border-bottom:1px solid var(--line); }
+.experiment-collection-heading { display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+.experiment-collection h2 { font-size:28px; letter-spacing:-.04em; font-weight:500; margin:0; }
+.experiment-collection p { color:var(--muted); font-size:15px; margin:28px 0 0; }
+@media(max-width:700px) { .experiment-cover { padding:24px; } .experiment-mark { font-size:clamp(52px,15vw,90px); } }

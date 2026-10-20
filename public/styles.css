@@ -491,3 +491,5 @@ footer {
 .case-section p { margin:0; font-size:17px; line-height:1.8; max-width:640px; }
 @media(max-width:700px) { .project-feature { grid-template-columns:1fr; gap:28px; } .project-copy h3 { margin:20px 0; } .project-copy h3 br { display:none; } .project-copy h3 br:after { content:' '; } .case-section { grid-template-columns:1fr; gap:15px; } .selected-work { padding-bottom:50px; } }
 @media(prefers-reduced-motion:reduce) { .project-image img,.walkthrough-link span { transition:none; } .project-image:hover img,.walkthrough-link:hover span { transform:none; } }
+
+.project-video { display:block; width:100%; height:auto; background:#191919; }

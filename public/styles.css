@@ -506,7 +506,7 @@ footer {
 .tour-heading p { font-size:15px; line-height:1.6; color:var(--muted); max-width:600px; }
 .tour-clips { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
 .case .tour-clips figure { margin:0 0 12px; min-width:0; }
-.tour-clips figure:first-child { grid-column:1/-1; }
+
 .tour-clips video { display:block; width:100%; height:auto; background:#191919; }
 .product-tour figcaption { line-height:1.6; }
 .product-tour figcaption strong { display:block; color:var(--ink); font-size:15px; font-weight:500; margin-bottom:4px; }
